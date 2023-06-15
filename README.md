@@ -15,15 +15,17 @@ Songs
 -	pep, birip, trri-trri, croac
 - bri-bri, plop, cric-cric, brrah
 
-## Solution
-![Project image](image.png)
-
 ## Exercise
 Write a program that lets you receive a given sound from the list of sounds each animal does and returns the remaining sounds of any of the 3 songs that the explorer wrote e.g.: 
 •	When given brr it should reproduce fiu, cric-cric, brrah according to the first song
 •	When given birip it should reproduce trri-trri, croac according to the second song
 •	When given plop it should reproduce cric-cric, brrah according to the third song
 •	When given croac or brrah it shouldn't reproduce anything according to all songs
+
+
+## Solution
+![Project image](image.png)
+
 
 ## Project setup
 ```
