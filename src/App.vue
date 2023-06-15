@@ -24,6 +24,7 @@ import soundComponent from './components/soundComponent.vue'
 
 //Sounds functions 
 import { identifySong, getSequence, whatAnimalIs } from './functions/soundsFunctions.js';
+
 export default {
   name: 'App',
   components: {
@@ -31,25 +32,33 @@ export default {
   },
   data() {
     return {
+      //To identify the names of sounds and names of animals
       sounds: [
         { animal: "frog", sounds: ["brr", "birip", "brrah", "croac"] },
         { animal: "dragonfly", sounds: ["fiu", "plop", "pep"] },
         { animal: "cricket", sounds: ["cric-cric", "trri-trri", "bri-bri"] },
       ],
+      //Audio media
       audio: {
         frog: {},
         dragonfly: {},
         cricket: {},
       },
+      //All the songs sequences
       songs: [
         ["brr", "fiu", "cric-cric", "brrah"],
         ["pep", "birip", "trri-trri", "croac"],
         ["bri-bri", "plop", "cric-cric", "brrah"],
       ],
+      //To show or hide the result
       showResponse: false,
+      //Sequence to show as result
       sequence: [],
+      //Actual audio source to play with audio player
       audioSource: "",
+      //It reproduces the audio
       audioPlayer: new Audio(),
+      //Current selection
       soundSelected: "",
     }
   },
