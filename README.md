@@ -7,12 +7,14 @@ Sounds
 -	Frog: brr, birip, brrah, croac
 -	Dragonfly: fiu, plop, pep
 -	Cricket: cric-cric, trri-trri, bri-bri
+
 After a while, he discovered that they were "singing" together. Whenever the frog started with brr, the dragonfly responded to its sound by rubbing its tail with a branch producing a sound as fiu; after the dragonfly, the cricket continued with cric-cric. However, every time the frog sounded as brrah or croac, all animals would mute for a while, and then they continued all over again. Before the sky was dark, the explorer was able to write 3 "songs" they all did together and came up with these notes. 
 
 Songs 
 -	brr, fiu, cric-cric, brrah
 -	pep, birip, trri-trri, croac
--bri-bri, plop, cric-cric, brrah
+- bri-bri, plop, cric-cric, brrah
+
 ## Solution
 ![Project image](image.png)
 
